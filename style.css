@@ -1,13 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1e88e5;
+  color:white;
+
   background-image: url(ok.jpg);
-  height:160vh;
-  width:100%;
+  background-size: cover;
+  font-family: 'Noto Sans HK';
 }
 
 
+
+.transparent {
+  opacity: 9;
+  background-color: #1e88e5;
+
+}
 nav {
   position:fixed;
   top:0;
@@ -49,15 +56,20 @@ h1 {
   font-size: 7vh;
 }
 #left {
-  position:relative;
+  /*position:relative;
   top:35vh;
   margin: auto;
-  left: 20vh;
+  left: 20vh;*/
+position:relative;
+width:90%;
+top:35vh;
+margin: auto;
 }
 
 
 #gauche {
   position:relative;
+  width:90%;
   margin: auto;
-  left: 20vh;
+
 }
